@@ -257,32 +257,37 @@ a.zilla-button.black:hover {
 	
 
 .zilla-tabs ul.zilla-nav li a {
-	border: 1px solid #dfdfdf!important;
 	border-bottom: none!important;
 	display: block;
 	overflow: hidden;
-	padding: 5px 10px 0 10px;
-	height: 26px;
-	background: #FBFBFB;
+	padding: 5px 10px;
+	height: auto;
 	margin: 0!important;
 	text-decoration: none;
 	font-family: 'Source Sans Pro', Arial, Geneva, sans-serif;
-	font-size: 1.3em;
-	color: #104493!important;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFF!important;
+	background: none repeat scroll 0 0 #2070A1;
 	text-transform: uppercase;
-	-webkit-border-radius: 3px 3px 0 0;
-	   -moz-border-radius: 3px 3px 0 0;
-	   		border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
 	}
 	
 .zilla-tabs ul.zilla-nav li a:hover {
-	background: #fff!important;
+	background:none repeat scroll 0 0 #4AA3D6!important;
 	margin: 0!important;
 	}
 
+.zilla-tabs ul.zilla-nav li.ui-state-active a {
+	height: auto;
+	background:none repeat scroll 0 0 #2590CE!important;
+	}
+
 .zilla-tabs ul.zilla-nav li.ui-tabs-selected a {
-	height: 27px;
-	background: #fff;
+	height: 32px;
+	background:none repeat scroll 0 0 #2590CE!important;
 	}
 
 .zilla-tabs .zilla-tab {
@@ -290,6 +295,9 @@ a.zilla-button.black:hover {
 	padding: 10px;
 	border: 1px solid #dfdfdf;
 	font-size: 0.9em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	}
 	
 .ui-widget-content {

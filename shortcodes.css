@@ -7,7 +7,7 @@
 .zilla-two-third { width: 65.33%; }
 .zilla-one-fourth { width: 22%; }
 .zilla-three-fourth { width: 74%; }
-.zilla-one-fifth { width: 16.8%; }
+.zilla-one-fifth { width: 27.8%; }
 .zilla-two-fifth { width: 37.6%; }
 .zilla-three-fifth { width: 58.4%; }
 .zilla-four-fifth { width: 67.2%; }
@@ -328,6 +328,7 @@ border: none;
     outline: medium none;
     padding: 3px 10px 5px 35px;
 	text-transform: uppercase;
+	line-height: 1.3em;
 	border-radius: 8px;
 	}
 
@@ -338,6 +339,27 @@ border: none;
     font-size: 1em;
 	line-height: 25px;
 	border-radius: 8px;
+    height: auto !important;
+    overflow: hidden;
+	}
+
+.zilla-toggle-inner .zilla-one-half,
+.zilla-toggle-inner .zilla-one-third, 
+.zilla-toggle-inner .zilla-two-third, 
+.zilla-toggle-inner .zilla-three-fourth, 
+.zilla-toggle-inner .zilla-one-fourth, 
+.zilla-toggle-inner .zilla-one-fifth, 
+.zilla-toggle-inner .zilla-two-fifth, 
+.zilla-toggle-inner .zilla-three-fifth, 
+.zilla-toggle-inner .zilla-four-fifth, 
+.zilla-toggle-inner .zilla-one-sixth, 
+.zilla-toggle-inner .zilla-five-sixth {
+	margin-bottom: 5px;
+}
+
+.zilla-toggle-inner a {
+	color: #7ED2DA;
+	font-weight: 600;
 	}
 
 .zilla-toggle span.ui-icon {
@@ -359,7 +381,7 @@ border: none;
 }
 
 .ui-accordion .ui-accordion-header .ui-icon {
-margin-top: 8px;
+margin-top: 5px;
 margin-right: 10px;
 }
 

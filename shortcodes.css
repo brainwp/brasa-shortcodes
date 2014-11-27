@@ -391,3 +391,17 @@ margin-right: 10px;
 .zilla-clearfix:after { content:""; display:table; }
 .zilla-clearfix:after { clear: both; }
 .zilla-clearfix { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+/* Responsive CSS */
+
+@media (max-width: 550px) {
+
+.zilla-one-half, .zilla-one-third, .zilla-two-third, .zilla-three-fourth, .zilla-one-fourth, .zilla-one-fifth, .zilla-two-fifth, .zilla-three-fifth, .zilla-four-fifth, .zilla-one-sixth, .zilla-five-sixth {
+	width: 100%;
+}
+
+.zilla-tabs ul.zilla-nav li {
+width: 100%;
+}
+
+}

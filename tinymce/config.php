@@ -169,7 +169,7 @@ $zilla_shortcodes['tabs'] = array(
 $zilla_shortcodes['columns'] = array(
 	'params' => array(),
 	'shortcode' => ' {{child_shortcode}} ', // as there is no wrapper shortcode
-	'popup_title' => __('Insert Shortcode de Colunas', 'textdomain'),
+	'popup_title' => __('Inserir Shortcode de Colunas', 'textdomain'),
 	'no_preview' => true,
 	
 	// child shortcode is clonable & sortable

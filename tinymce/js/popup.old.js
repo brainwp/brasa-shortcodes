@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
     			}
     			else
     			{
-    				alert('Você precisa de ao menos uma tabela');
+    				alert('You need a minimum of one row');
     			}
     			
     			return false;
@@ -143,10 +143,11 @@ jQuery(document).ready(function($) {
     		
     		// when insert is clicked
     		$('.zilla-insert', form).click(function() {    		 			
-    			if(parent.tinymce)
-			{                parent.tinymce.activeEditor.execCommand('mceInsertContent',false,$('#_zilla_ushortcode', form).html());
-			tb_remove();
-			}
+    			if(window.tinyMCE)
+				{
+					window.tinyMCE.execInstanceCommand('content', 'mceInsertContent', false, $('#_zilla_ushortcode', form).html());
+					tb_remove();
+				}
     		});
     	}
 	}

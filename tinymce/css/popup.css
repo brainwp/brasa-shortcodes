@@ -1,6 +1,14 @@
 
 /* GLOBAL
 ------------------------------------------------------- */
+
+.mce-i-zilla_button{
+	background-image:url(../images/icon.png)!important; 
+	background-repeat:no-repeat; 
+	background-color:transparent; 
+	background-position:center center
+}
+
 #zilla-popup {
 	width: 560px;
 	font: 12px/20px Arial, Helvetica, sans-serif;
